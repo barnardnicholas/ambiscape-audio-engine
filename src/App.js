@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
-import sounds from "./data/sounds";
 import * as engine from "./utils/engine";
 
 class App extends Component {
   state = {
-    sounds: sounds,
+    sounds: [],
     howls: {}
   };
 

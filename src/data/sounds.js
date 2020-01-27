@@ -1,5 +1,5 @@
-export default sounds = [
-  {
+const sounds = [
+  ({
     id: 1,
     name: "Italian Birds",
     slug: "italianbirds",
@@ -99,5 +99,7 @@ export default sounds = [
       "chaffinch 5": [15000, 3417.6870748299316],
       "chaffinch 6": [20000, 2320.5442176870756]
     }
-  }
+  })
 ];
+
+export default sounds;
